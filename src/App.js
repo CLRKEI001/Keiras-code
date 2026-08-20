@@ -118,6 +118,7 @@ function App() {
           setProfile(verifiedProfile);
           setTransitioning(true);
         }}
+        onBack={() => setPublicPage("home")}
       />
     );
   }
